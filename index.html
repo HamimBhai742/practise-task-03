@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Facebook login page</title>
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body>
+    <section class="main">
+      <div class="header">
+        <h1 class="title">Facebook</h1>
+        <p class="description">
+          Facebook helps you connect and share with the people in your life.
+        </p>
+      </div>
+      <div class="container">
+        <h3 class="title1">Welcome to back</h3>
+        <form method="post">
+          <input
+            type="text"
+            class="inputField"
+            id="email"
+            placeholder="Email or phone number"
+            name="email"
+            required
+          /><br /><br />
+          <input
+            class="inputField"
+            type="password"
+            placeholder="Password"
+            id="password"
+            name="pass"
+            required
+          /><br /><br />
+          <button class="loginButton" type="submit">Log In</button>
+        </form>
+        <br />
+        <div class="forgotPassword">
+          <a class="link" href="https://www.facebook.com/recover/initiate"
+            >Forgotten password?</a
+          >
+        </div>
+        <br />
+        <div class="createAccount">
+          <hr class="line" />
+          <br />
+          <button class="create">Create new account</button>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

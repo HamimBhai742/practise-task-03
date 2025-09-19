@@ -1,0 +1,91 @@
+.title {
+  font-size: 48px;
+  font-weight: bold;
+  color: blue;
+}
+
+.title1 {
+  font-size: 32px;
+  font-weight: extrabold;
+  color: rgb(12, 12, 12);
+  text-align: center;
+}
+
+.container {
+  padding: 30px;
+  background-color: white;
+  border-radius: 12px;
+  width: 450px;
+  box-shadow: 0 2px 5px gray;
+}
+
+.description {
+  font-size: 20px;
+  color: rgb(59, 58, 58);
+  margin-top: -30px;
+  margin-bottom: 20px;
+  max-width: 400px;
+}
+
+.main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(235, 233, 233);
+}
+
+.loginButton {
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  padding: 16px;
+  border: none;
+  width: 100%;
+  font-size: medium;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.inputField {
+  width: 100%;
+  padding: 16px;
+  margin: 5px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: medium;
+}
+
+.link {
+  text-align: center;
+  text-decoration: none;
+  font-size: medium;
+  color: rgb(72, 72, 240);
+}
+
+.forgotPassword {
+  text-align: center;
+}
+
+.create {
+  background-color: rgb(7, 167, 7);
+  color: white;
+  border-radius: 5px;
+  padding: 16px;
+  border: none;
+  width: 50%;
+  font-size: medium;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.line {
+  color: rgb(238, 233, 233);
+  padding: 0 36px;
+}
+
+.createAccount {
+  text-align: center;
+  /* padding: 0 0 20px 0; */
+}
